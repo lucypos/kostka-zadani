@@ -30,10 +30,14 @@ document.body.innerHTML += createEvent(
 */
 
 //Kostka
-const hod= (side) => {
-    onclick
+
+const hod = (side) =>{
+    side = document.querySelector('dice');
+    if  {
+        return side.src = 'side2.svg';
+    } 
 }
-let side = document.querySelector('.dice')
-if onkeydown = side.classList.toggle('dice')
+
 
 document.querySelector(.dice).src = img.src
+dice.addEventListener('keydown', hod)
