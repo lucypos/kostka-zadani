@@ -35,3 +35,5 @@ const hod= (side) => {
 }
 let side = document.querySelector('.dice')
 if onkeydown = side.classList.toggle('dice')
+
+document.querySelector(.dice).src = img.src
