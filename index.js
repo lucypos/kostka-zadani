@@ -1,5 +1,5 @@
 //Catering
-/*
+
 const justFood = (pocetLidi) => {
 	return `catering od Just Food pro ${pocetLidi} lidí za ${(pocetLidi * 100
 	)} Kč`
@@ -27,17 +27,17 @@ document.body.innerHTML += createEvent(
     150,
     flavourHaven
 )
-*/
+
 
 //Kostka
 
-const hod = (side) =>{
-    side = document.querySelector('dice');
-    if  {
-        return side.src = 'side2.svg';
+let side = 1
+const cisloNaKostce = document.querySelector('.dice');
+const hod = () => {
+    side = side + 1
+    if  (side === 7) {
+            side = 1
     } 
+    cisloNaKostce.src = `img/side${side}.svg`
 }
-
-
-document.querySelector(.dice).src = img.src
-dice.addEventListener('keydown', hod)
+document.addEventListener('keydown', hod)
